@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="ps">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum eligendi assumenda numquam labore et quod? Quam mollitia dolorum, recusandae aliquid dolore maxime, cupiditate similique maiores, deleniti consectetur tenetur pariatur. Perferendis?</p>
+    <!-- document.createelement() -->
+     <script>
+        var h1ref=document.createElement('h1')
+        h1ref.textContent="welcom to pentagonspace"
+        
+        var body=document.body
+        body.appendChild(h1ref)
+
+        var btn=document.createElement('button')
+        btn.textContent="click here"
+        body.append(btn)
+
+        var pref=document.getElementById('ps')
+        pref.remove()
+
+
+
+
+        </script>
+    
+</body>
+</html>

@@ -1,0 +1,17 @@
+function evenodd(num){
+    if(num%2==0){
+        console.log("no is even")
+
+    }
+    else{
+        console.log("no is odd")
+    }
+}
+
+function switchcase(message){
+    switch(message){
+        case "gm":{
+            console.log("good morning")
+        }
+    }
+}
